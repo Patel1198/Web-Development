@@ -1,0 +1,198 @@
+/* Assign2_css.css */
+body{	
+	background-image: url("../Images/logoo.jpg");
+	background-repeat:repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+		.logo
+		{
+			height: 50px;
+			float: left;
+			margin: 16px 48px;
+			border-radius: 30px 30px;
+		}
+	#symbol {
+			font-size: 2.5em;
+			border-radius: 30px 0px 30px 0px;
+			border: thick solid black;
+			padding: 2px;
+			color: #01024E;
+			border-color: #01024E;
+	}
+nav
+{
+	position: fixed;
+	width: 100%;
+	line-height: 60px;
+}
+
+nav ul
+{
+	float: right;
+	margin: 0;
+	padding-right: 42px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	padding: 16px 32px;
+}
+li a:hover 
+{
+	background-color: gray;
+}
+nav ul li a 
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+	#decoration {
+			font-size: 1.5em;
+			text-shadow:2px 2px #818988;
+			text-decoration:underline;
+			text-decoration-color:#01024E;
+	}
+	#symbols {
+			font-size: 2.5em;
+			text-shadow:2px 2px #01024E;
+			padding: 2px;
+			color:#01024E;
+	}
+	#quotes
+	{
+		font-size: 2.5em;
+		font-family: Times New Roman;
+		text-align: center;
+		line-height: 1.6;
+	}
+h1 
+{
+	font-size: 48px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 350px;
+	color: black;
+	font-family: Arial;
+}
+p
+{
+	font-size: 18px;
+	line-height: 28px;
+	color: black;
+	text-align: justify;
+}
+		.footer
+		{
+			position: relative;
+			background-image: url("../Images/logo5.jpg");
+		}
+
+		.mainmenu
+		{
+			width: 80%;
+			margin: 50px auto;
+		}
+		.tags
+		{
+			padding-top: 100px;
+			text-align: center;
+			font-size: 20px;
+			text-decoration:underline;
+		}
+		.table
+		{
+			height:500px;
+			width:100%;
+			border-collapse: collapse;
+			border-color:black;
+			text-align: center;
+			font-family: Arial;
+		}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+tr:nth-child(even)
+ {
+	 background-color: #f2f2f2;
+}
+video {
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+	border-radius: 20px 20px;
+}
+		.flex-container {
+		  display: flex;
+		  flex-wrap: wrap;
+		  background-color: LightGray;
+		}
+
+		.flex-container > div {
+		  background-color: #f1f1f1;
+		  width:405px;
+		  margin: 5px;
+		  padding: 0px;
+		  line-height: 65px;
+		}
+		.samples
+		{
+				height: 400px;
+				width: 49%;
+				margin:5px;
+				border-radius: 20px 20px;
+		}
+		.profiles img
+		{
+			float:right;
+			height: 350px;
+			width: 700px;
+			margin:5px;
+			margin-left: 5px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.main{
+			width:100%;
+			}
+		.work{
+			text-align:center;
+			font-size:2em;
+			font-family:Arial;
+		}
+		.data
+		{
+			float:right;
+			margin: 0px 0px 15px 20px;
+			width: 450px;
+			height: 350px;
+		}
+		.symbol{
+				float: right;
+				height: 300px;
+				width: 300px;
+		}		
+	#links li
+	{
+		padding: 10px;
+	}		
+		.locations img
+		{
+			height: 300px;
+			width: 405px;
+		}
+	#names
+	{
+		text-align: center;
+		font-size: 30px;
+	}		
+	#offices
+	{
+		font-size: 1.5em; 
+		text-align: center;
+	}	
